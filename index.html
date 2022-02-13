@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a class="logo__item" href="#">•<span style="color: var(--light);">•</span></a>
+            </div>
+            <div class="icon__bars">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#home">Home</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#collection">Collection</a>
+                    <a href="#destination">Destination</a>
+                  </div>
+                  
+                  
+                  <span style="font-size:2rem;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <div class="menu-doc">
+        <div id="myDIV">
+            <button  class="btn"> <a href="#home"></a></button>
+            <button  class="btn active"> <a href="#blog"></a></button>
+            <button  class="btn"> <a href="#collection"></a></button>
+            <button  class="btn"> <a href="#destination"></a></button>
+        </div>
+    </div> -->
+
+    <section id="home">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4">
+                    <div class="home__text">
+                        <h2>japan</h2> 
+                        <a href="#blog" class="btn__home">Discover</a>
+                    </div>
+                </div>
+                <div class="col l-8">
+                    <div class="home__slider">
+                        <div class="image__slider">
+                            <img src="https://images.unsplash.com/photo-1565154027376-03d01686f20c?ixlib=rb-1.
+                            2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                        </div>
+
+                        <div class="image__slider">
+                            <img src="https://cdn.pixabay.com/photo/2020/12/14/23/54/couple-5832308_960_720.jpg">
+                        </div>
+
+                        <div class="image__slider">
+                            <img src="https://images.unsplash.com/photo-1593405844957-3854dae97a19?ixlib=rb-1.2.
+                            1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                        </div>
+
+                        <div class="image__slider">
+                            <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1
+                            .2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1192&q=80">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="home__direct">
+            <a href="#blog" class="home__direct-link">Blog</a>
+            <a href="#collection" class="home__direct-link">Collection</a>
+        </div>
+    </section>
+
+
+    <section id="blog">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-2 categories">
+                    <h4>Categories</h4>
+                    <a href="#" class="categories__link">Local Guides (27)</a>
+                    <a href="#" class="categories__link">Culture (25)</a>
+                    <a href="#" class="categories__link">Outdoor (17)</a>
+                    <a href="#" class="categories__link">Traditional (11)</a>
+                    <a href="#" class="categories__link">City life (11)</a>
+                    <a href="#" class="categories__link">Festival (20)</a>
+                </div>
+
+                <div class="col l-8">
+                    <h3>Blog | Discover</h3>
+                    <div class="row">
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/blog/the-art-of-imperfection-kintsugi-pottery-and-wabi-sabi/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1446817852323-048fe2d5f61a?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
+                                </div>
+                                <span>The Art of Imperfection: Kintsugi Pottery, Wabi-Sabi and Sustainability</span>
+                                <p>Culture | Traditional</p>
+                            </a>
+                        </div>
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/luxury/detail/kanazawa-geisha-performance/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1519652067-cf0f824c0841?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                </div>
+                                <span>Kanazawa Geisha Performance</span>
+                                <p>Culture | Traditional</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/luxury/detail/tamasushi-sushi-making-experience/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1579551635420-fe4dc11aa3d1?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                </div>
+                                <span>Tamasushi Sushi Making Experience</span>
+                                <p>Cuisine | Food</p>
+                            </a>
+                        </div>
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/sports/diving/where-to-dive/kyoto/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1522623349500-de37a56ea2a5?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80">
+                                </div>
+                                <span>Kyoto Prefecture The land of History and Culture</span>
+                                <p>City | Traditional</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/cherry-blossom-forecast-2021/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1500214751256-2edf09198988?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                </div>
+                                <span>Cherry Blossom Forecast 2021</span>
+                                <p>Nature | Festival</p>
+                            </a>
+                        </div>
+                        <div class="col l-6">
+                            <a href="https://www.japan.travel/en/japans-local-treasures/art-tea-ceremony-kanazawa/" 
+                            class="blog__box">
+                                <div class="blog__img">
+                                    <div class="overlay"></div>
+                                    <img src="https://images.unsplash.com/photo-1512923680040-ae76121db32b?ixlib=rb-1.2.
+                                    1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                </div>
+                                <span>The Art of the Tea Ceremony in Kanazawa</span>
+                                <p>Culture | Traditional</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-2">
+                </div>
+
+                <div class="blog__direct">
+                    <a href="#destination" class="blog__direct-link">destination</a>
+                    <a href="#collection" class="blog__direct-link">Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12">
+                    <div class="collection__slider">
+                        <div class="collection__item">
+                            <div class="collection__img">
+                                <div class="overlay"></div>
+                                <img src="https://designs.vn/wp-content/images/05-10-2019/wave(1).jpg" alt="">
+                            </div>
+                            <span>Art & Design</span>
+                            <a href="https://nipponkiyoshi.com/2015/01/06/5-kiet-tac-tranh-khac-go-cua-nhat-ban/" 
+                            class="btn__home btn__collection">View</a>
+                        </div>
+
+                        <div class="collection__item">
+                            <div class="collection__img">
+                                <div class="overlay"></div>
+                                <img src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                            </div>
+                            <span>Cuisine</span>
+                            <a href="https://www.japan.travel/en/things-to-do/eat-and-drink/" 
+                            class="btn__home btn__collection">View</a>
+                        </div>
+
+                        <div class="collection__item">
+                            <div class="collection__img">
+                                <div class="overlay"></div>
+                                <img src="https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            </div>
+                            <span>Festival & Events</span>
+                            <a href="https://www.japan.travel/en/things-to-do/eat-and-drink/" 
+                            class="btn__home btn__collection">View</a>
+                        </div>
+
+                        <div class="collection__item">
+                            <div class="collection__img">
+                                <div class="overlay"></div>
+                                <img src="https://images.unsplash.com/photo-1505440484611-23c171ad6e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80" alt="">
+                            </div>
+                            <span>Culture & Traditional</span>
+                            <a href="https://www.japan.travel/en/things-to-do/eat-and-drink/" 
+                            class="btn__home btn__collection">View</a>
+                        </div>
+
+                        <div class="collection__item">
+                            <div class="collection__img">
+                                <div class="overlay"></div>
+                                <img src="https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            </div>
+                            <span>Nature</span>
+                            <a href="https://www.japan.travel/en/things-to-do/eat-and-drink/" 
+                            class="btn__home btn__collection">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l-8"></div>
+                <div class="col l-4">
+                    <div class="collection__text">
+                        <h3>#Japanese Collection</h3>
+                        <p>Initiated with an exchange of government publications in 1875, 
+                            the Japanese collection has grown to more than 1.2 million volumes of books and serials 
+                            as well as extensive microform holdings.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="collection__direct">
+                <a href="#blog" class="collection__direct-link">Blog</a>
+                <a href="#destination" class="collection__direct-link">Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3"></div>
+                <div class="col l-9">
+                    <h2>destination</h2>
+                    <em>Travel</em>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l-6 slide__show">
+                    <h3>Best Destinations in Japan</h3>
+                    <div class="destination__slider">
+                        <div class="destination__item">
+                            <div class="destination__img">
+                                <img src="https://images.unsplash.com/photo-1584660470766-20ac1a28c7fe?ixlib=rb-1.2.
+                                1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                <span>Tokyo</span>
+                            </div>
+                            <div class="destination__link">
+                                <a href="https://www.japan.travel/en/japan-magazine/2107_hinohara-mura-mountains-natural-beauty-and-deep-tradition-in-and/">
+                                    Hinohara-Mura: Mountains</a>
+                                <a href="https://www.japan.travel/vi/spot/1666/">
+                                    Meiji-jingu</a>
+                                <a href="https://www.japan.travel/en/japan-magazine/2102_toshima/">
+                                    Tokiwaso Manga Museum</a>
+                            </div>
+                        </div>
+
+                        <div class="destination__item">
+                            <div class="destination__img">
+                                <img src="https://images.unsplash.com/photo-1590133604435-b3c70cb2de90?ixlib=rb-1.2
+                                .1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="">
+                                <span>Hokkaido</span>
+                            </div>
+                            <div class="destination__link">
+                                <a href="https://www.japan.travel/en/japan-magazine/1903_hokkaido01/">
+                                    Wonderland in Hokkaido</a>
+                                <a href="https://www.japan.travel/en/japan-magazine/experience-deep-wilderness-eastern-hokkaido/">
+                                    Deep Wilderness</a>
+                                <a href="https://www.japan.travel/en/japan-magazine/2109_best-destinations-cycling-and-bike-tours-japan/">
+                                    Cycling and Bike Tours</a>
+                            </div>
+                        </div>
+
+                        <div class="destination__item">
+                            <div class="destination__img">
+                                <img src="https://images.unsplash.com/photo-1624253321171-1be53e12f5f4?ixlib=rb-1.2.
+                                1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                <span>Kyoto</span>
+                            </div>
+                            <div class="destination__link">
+                                <a href="https://www.japan-guide.com/e/e3918.html">
+                                    Nijo </a>
+                                <a href="https://nhatbanchotoinhe.com/kham-pha-sanjusangendo-ngoi-den-go-33-gian-dai-nhat-nhat-ban/">
+                                    Sanjusangen-do</a>
+                                <a href="https://www.ana.co.jp/vi/vn/japan-travel-planner/kyoto/0000002.html">
+                                    Fushimi Inari-taisha</a>
+                            </div>
+                        </div>
+
+                        <div class="destination__item">
+                            <div class="destination__img">
+                                <img src="https://images.unsplash.com/photo-1582116326882-c9ad2e93e1d9?ixlib=rb-1.2.
+                                1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="">
+                                <span>Okinawa</span>
+                            </div>
+                            <div class="destination__link">
+                                <a href="https://www.japan.travel/vi/spot/581/">
+                                    Churaumi</a>
+                                <a href="https://japantravel.navitime.com/en/area/jp/spot/02301-1800252/">
+                                    Kokusai Dori Yatai-mura</a>
+                                <a href="https://www.nagannu.com/">Nagannu</a>
+                            </div>
+                        </div>
+
+                        <div class="destination__item">
+                            <div class="destination__img">
+                                <img src="https://images.unsplash.com/photo-1591873381631-4104d6e7d105?ixlib=rb-1.2.
+                                1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="">
+                                <span>Kawaguchiko</span>
+                            </div>
+                            <div class="destination__link">
+                                <a href="https://www.japan-guide.com/e/e2172.html">
+                                    Mount Fuji</a>
+                                <a href="https://www.japan-guide.com/e/e6916.html">
+                                    Mt. Fuji Panoramic Ropeway</a>
+                                <a href="https://www.japan-guide.com/e/e6913.html">
+                                    Kawaguchiko Music Forest Museum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-6 text">
+                    <p>If you’re planning a trip to Japan, one of the most important, enjoyable, 
+                        and challenging steps is deciding where in Japan to go.
+                        With so many amazing places to choose from, and so much online content to sift through, 
+                        figuring out your ideal destinations can seem daunting, whether it’s your first time to Japan or a return visit.
+                    </p>
+                    <div class="destination__direct">
+                        <a href="#home" class="destination__direct-link">Home</a>  
+                        <a href="#blog" class="destination__direct-link">Blog</a>
+                        <a href="#collection" class="destination__direct-link">Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script> -->
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "10%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+  
+    <script src="js/script.js"></script> 
+</body>
+</html>
